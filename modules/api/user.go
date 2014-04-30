@@ -7,5 +7,5 @@ import (
 )
 
 func RegisterUser(user models.User, res http.ResponseWriter, req *http.Request) {
-	log.Print(user.ToJson())
+	log.Print("yay")
 }
